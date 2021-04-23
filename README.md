@@ -1,4 +1,4 @@
-##Mac OS execution notes - very rough draft
+## Mac OS execution notes - very rough draft
 
     git clone git@github.com:OBSXIZLS/shopbot.git
 
