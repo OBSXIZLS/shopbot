@@ -1,19 +1,20 @@
-#Mac OS execution notes - very rough draft
+##Mac OS execution notes - very rough draft
 
-git clone git@github.com:OBSXIZLS/shopbot.git
+    git clone git@github.com:OBSXIZLS/shopbot.git
 
-cp ~/Downloads/chromedriver ./shopbot/ 
-cp ~/Downloads/notification.mp3 ./shopbot/
+    cp ~/Downloads/chromedriver ./shopbot/ 
 
-virtualenv -p 3.9 shopbot-virtualenv
+    cp ~/Downloads/notification.mp3 ./shopbot/
 
-./shopbot-virtualenv/bin/activate
+    virtualenv -p 3.9 shopbot-virtualenv
 
-pip install -r shopbot/requirements.txt
+    ./shopbot-virtualenv/bin/activate
 
-cd shopbot
+    pip install -r shopbot/requirements.txt
 
-python newegg.py
+    cd shopbot
+
+    python newegg.py
 
 
 
