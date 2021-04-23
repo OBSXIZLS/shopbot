@@ -88,14 +88,6 @@ if __name__ == '__main__':
                 open_tab(browser, itemLink)
                 logging.debug(f"Opening tab - {itemLink}")
                 playsound(sound_path)
-                playsound(sound_path)
-                playsound(sound_path)
-                playsound(sound_path)
-                playsound(sound_path)
-                playsound(sound_path)
-                playsound(sound_path)
-                playsound(sound_path)
-                playsound(sound_path)
 
             else:
                 print(f"{itemStatus} - {itemLink}")
